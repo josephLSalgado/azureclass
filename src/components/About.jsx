@@ -1,11 +1,11 @@
 import React from 'react';
 
-const About = () => (
+const About = ({avatar, twitter, instagram}) => (
     <div className="About">
         <div className="About-container">
             <div className="About-avatar">
                 <figure>
-                    <img src="/" alt="">
+                    <img src={avatar} alt="">
                     </img>
                 </figure>
             </div>
