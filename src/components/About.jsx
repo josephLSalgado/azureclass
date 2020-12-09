@@ -23,7 +23,18 @@ const About = ({avatar, twitter, instagram}) => (
                 <p>San Luis Potosí, México.</p>
             </div>
             <div className="About-social">
-                Social
+                <ul>
+                    <li>
+                        <a href="https://twitter.com/PisshhSalgado">
+                            twitter
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/joelouis_salgado/">
+                            instagram
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
