@@ -1,7 +1,12 @@
 import React from 'react';
+import styled from 'styled-components';
+
+const AboutStyle = styled.div`
+    text-align: center;
+`;
 
 const About = ({avatar, twitter, instagram}) => (
-    <div className="About">
+    <AboutStyle>
         <div className="About-container">
             <div className="About-avatar">
                 <figure>
@@ -14,7 +19,7 @@ const About = ({avatar, twitter, instagram}) => (
             </div>
             <div className="About-profession">
                 <p>Blogger</p>
-                <p>Desarrollador de videjuegos</p>
+                <p>Desarrollador de videojuegos</p>
             </div>
             <div className="About-desc">
                 <p>Soy desarrollador de videojuegos y me gusta la pizza. Actualmente estoy jugando Fortnite y Genshin Impact.</p>
@@ -34,10 +39,15 @@ const About = ({avatar, twitter, instagram}) => (
                             instagram
                         </a>
                     </li>
+                    <li>
+                        <a href="https://github.com/josephLSalgado">
+                            github
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
-    </div>
+    </AboutStyle>
 );
 
 export default About;
